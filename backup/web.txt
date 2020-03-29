@@ -1,0 +1,13 @@
+EKKO -> cabecera de compras
+EKPO -> detalle de compras
+EKBE -> Historial para el documento
+EKBZ -> historial para servicios.
+T134T -> tipo de material
+ZMMT_AFNAM -> Solicitante
+T161T -> Textos para clases de documentos de compras
+T161U -> Textos para indicadores de liberación
+T16FH -> Denominaciones de grupos de liberación
+T16FT -> Denominaciones de las estrategias de liberación
+T001W -> Centros/Sucursales
+T024W -> Organizaciones de compras permitidas para el centro
+T006 -> UM
