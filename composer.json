@@ -27,7 +27,9 @@
         "symfony/twig-pack": "*",
         "symfony/validator": "5.0.*",
         "symfony/web-link": "5.0.*",
-        "symfony/yaml": "5.0.*"
+        "symfony/yaml": "5.0.*",
+        "jetbrains/phpstorm-stubs": "^v2019.3",
+        "ext-com_dotnet": "*"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
@@ -51,6 +53,20 @@
             "App\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "jetbrains/phpstorm-stubs",
+                "version": "v2019.3",
+                "source": {
+                    "url": "https://github.com/JetBrains/phpstorm-stubs.git",
+                    "type": "git",
+                    "reference": "v2019.3"
+                }
+            }
+        }
+    ],
     "replace": {
         "paragonie/random_compat": "2.*",
         "symfony/polyfill-ctype": "*",
