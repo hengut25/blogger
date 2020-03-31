@@ -1,0 +1,1 @@
+dir /O-N /B /S . >> ter.txt

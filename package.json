@@ -1,0 +1,46 @@
+{
+  "name": "licitacion",
+  "version": "1.0.0",
+  "description": "PORTAL WEB",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.10.2",
+    "bootstrap": "4.3.1",
+    "chart.js": "2.8.0",
+    "datatables.net-bs4": "1.10.19",
+    "jquery": "^3.4.1",
+    "jquery.easing": "^1.4.1",
+    "popper.js": "^1.14.7",
+    "startbootstrap-sb-admin-2": "^4.0.7"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "@symfony/webpack-encore": "^0.28.3",
+    "@babel/helper-module-transforms": "^7.9.0",
+    "@babel/helpers": "^7.9.2",
+    "@babel/plugin-syntax-numeric-separator": "^7.8.3",
+    "node-sass": "^4.13.1",
+    "sass-loader": "7.0.1",
+    "webpack-notifier": "1.6.0"
+  },
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razo2020/blogger.git"
+  },
+  "author": "RAZO2020",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razo2020/blogger/issues"
+  },
+  "homepage": "https://github.com/razo2020/blogger#readme"
+}

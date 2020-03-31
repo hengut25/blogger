@@ -10,11 +10,11 @@ const RFC_OK = 0;
 class ConfigController extends AbstractController
 {
     /**
-     * @Route("/config", name="config")
+     * @Route("/", name="home")
      */
     public function index()
     {
-        $NumByRef = 0;
+    /*    $NumByRef = 0;
         $StrByRef = "";
 
         $conn = "ASHOST=172.17.10.56, SYSNR=00, CLIENT=400, USER=TI_FUNCIONAL, PASSWD=TICh1mu202003$";
@@ -78,7 +78,7 @@ class ConfigController extends AbstractController
 
         $rc = $SAP->RfcDestroyFunction($hFunc);
         $rc = $SAP->RfcCloseConnection($hRFC);
-        $SAP = null;
+        $SAP = null;*/
 
         return $this->render('config/index.html.twig', [
             'controller_name' => 'ConfigController',
